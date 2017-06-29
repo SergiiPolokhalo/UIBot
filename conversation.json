@@ -1,0 +1,136 @@
+{
+	"chats": 
+	[
+		{
+			"ident": "wrapper",
+			"messages": 
+			[
+				{
+					"txt": "Hi!"
+				},
+
+				{
+					"txt": "How are You?"
+				}
+			],
+
+			"responses": 
+			[
+				{
+					"txt": "NISL BLANDIT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns05"
+					}
+				},
+
+				{
+					"txt": "SED FEUGIAT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns02"
+					}
+				}
+			]
+		},
+
+		{
+			"ident": "columns05",
+			"messages": 
+			[
+				{
+					"txt": "Do You want some Google?"
+				},
+
+				{
+					"txt": "Or maybe back?"
+				}
+			],
+
+			"responses": 
+			[
+				{
+					"txt": "MAGNA ETIAM",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns01"
+					}
+				},
+
+				{
+					"txt": "TITLE",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "wrapper"
+					}
+				}
+			]
+		},
+
+		{
+			"ident": "columns01",
+			"messages": 
+			[
+				{
+					"txt": "Tell me, how many times You are smiling today?"
+				}
+			],
+
+			"responses": 
+			[
+				{
+					"txt": "SED FEUGIAT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns02"
+					}
+				},
+
+				{
+					"txt": "NISL BLANDIT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns05"
+					}
+				}
+			]
+		},
+
+		{
+			"ident": "columns02",
+			"messages": 
+			[
+				{
+					"txt": "Tell me, how many times You are smiling today?"
+				}
+			],
+
+			"responses": 
+			[
+				{
+					"txt": "SED FEUGIAT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "columns01"
+					}
+				},
+
+				{
+					"txt": "NISL BLANDIT",
+					"params": 
+					{
+						"action": "to_step",
+						"next_step": "wrapper"
+					}
+				}
+			]
+		}
+	]
+}
